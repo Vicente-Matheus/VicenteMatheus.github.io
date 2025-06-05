@@ -1,0 +1,69 @@
+.pranchas-lista {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.pranchas-lista h2 {
+  margin-bottom: 40px;
+}
+.pranchas-lista img {
+  max-width: 100%;
+  height: 663px;
+  display: block;
+  object-fit: cover;
+}
+.pranchas-lista li:nth-child(2) img {
+  object-position: left;
+}
+.pranchas-lista ul {
+  display: flex;
+  gap: 40px;
+  padding: 0 20px 20px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+#prancha .pranchas-lista ul {
+  padding: 0px 0px 20px 0px;
+}
+.pranchas-lista li {
+  min-width: 280px;
+}
+.pranchas-lista a {
+  display: block;
+}
+.pranchas-lista img {
+  margin-bottom: 16px;
+}
+.pranchas-lista h3 {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+.pranchas-lista h3::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  margin-right: 8px;
+  background: var(--cor-p1);
+  transition: width 0.2s;
+}
+.pranchas-lista a:hover h3::before {
+  width: 24px;
+}
+.pranchas-lista li span {
+  margin-left: 20px;
+}
+
+@media (max-width: 800px) {
+  .pranchas-lista ul {
+    gap: 20px;
+  }
+  .pranchas-lista img {
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    object-fit: cover;
+  }
+}

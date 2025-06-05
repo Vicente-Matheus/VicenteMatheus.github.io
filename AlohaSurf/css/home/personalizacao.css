@@ -1,0 +1,92 @@
+.personalizacao-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+
+.personalizacao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.personalizacao-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.personalizacao-conteudo {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.personalizacao-conteudo > span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.personalizacao-conteudo h2 {
+  margin-bottom: 32px;
+}
+
+.personalizacao-conteudo > p {
+  margin-bottom: 20px;
+}
+
+.personalizacao a {
+  margin-bottom: 80px;
+}
+
+.personalizacao-vantagens {
+  display: flex;
+  gap: 40px;
+}
+
+.personalizacao-vantagens h3 {
+  margin-bottom: 8px;
+  width: max-content;
+}
+
+.personalizacao-vantagens img {
+  width: 24px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .personalizacao-bg {
+    box-shadow: initial;
+  }
+
+  .personalizacao {
+    grid-template-columns: 1fr;
+  }
+
+  .personalizacao-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .personalizacao-imagem {
+    display: none;
+  }
+
+  .personalizacao a {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .personalizacao span {
+    font-size: 14px;
+  }
+  .personalizacao h2 {
+    font-size: 1.5rem;
+  }
+  .personalizacao p {
+    font-size: 16px;
+  }
+  .personalizacao-vantagens {
+    flex-direction: column;
+  }
+}

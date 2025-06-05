@@ -1,0 +1,8 @@
+<svg width="24" height="24" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Contorno principal da prancha -->
+  <path d="M32 4C42 14 54 34 32 60C10 34 22 14 32 4Z" fill="#2E7D32" stroke="#fff" stroke-width="2" stroke-linejoin="round"></path>
+  <!-- Linha central que marca a prancha -->
+  <path d="M32 4V60" stroke="#000" stroke-width="2" stroke-linecap="round"></path>
+  <!-- Detalhe da curvatura/quilhas na parte inferior -->
+  <path d="M32 46C35 50 40 54 46 58" stroke="#000" stroke-width="2" stroke-linecap="round"></path>
+</svg>
