@@ -71,13 +71,10 @@
   border-radius: 4px;
 }
 .botao {
-  position: relative;
   display: inline-block;
   text-transform: uppercase;
+  max-width: fit-content;
   color: #fff;
-}
-.botao {
-  display: inline-block;
   padding: 5px 10px;
   border-radius: 4px;
   margin-top: 10px;

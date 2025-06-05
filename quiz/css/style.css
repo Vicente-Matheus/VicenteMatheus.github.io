@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 200px auto;
+  background: #141414;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #7fdbff;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  color: #00bfff;
+}
+
+.cartao-quiz {
+  background: #f8f8f8;
+  border-radius: 12px;
+  padding: 25px;
+  margin-top: 20px;
+  box-shadow: 0 2px 12px #ccc;
+  color: #000;
+}
+
+.pergunta {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.opcoes button {
+  width: 100%;
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 12px;
+  border: none;
+  background-color: #c5dbdd;
+  border-radius: 8px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.opcoes button:hover {
+  background-color: #ddd;
+}
+
+.retorno {
+  font-weight: bold;
+  margin-top: 15px;
+  min-height: 28px;
+}
+
+.correto {
+  color: green;
+}
+
+.errado {
+  color: red;
+}
+
+#botao-proxima,
+#botao-recomecar {
+  display: block;
+  margin: 20px auto 0;
+  padding: 12px 30px;
+  font-size: 18px;
+  background-color: #234;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Botão recomeçar fica oculto inicialmente */
+#botao-recomecar {
+  display: none;
+}
+
+#resultado-final {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 22px;
+  color: #00bfff;
+}
